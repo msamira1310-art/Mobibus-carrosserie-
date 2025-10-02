@@ -3,15 +3,4 @@ const nextConfig = {
 }
 
 module.exports = nextConfig
-Fichier 3 : Créez tailwind.config.js :
-module.exports = {
-  content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
-  ],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-}
+
